@@ -1,0 +1,8 @@
+Credentials cache: API:51DBE113-6D24-45F7-A101-89479AFDBE4F
+        Principal: pbonnet@42.FR
+
+  Issued                Expires               Principal
+Jul  4 10:18:12 2017  Jul 11 10:18:12 2017  krbtgt/42.FR@42.FR
+Jul  4 10:18:13 2017  Jul 11 10:18:12 2017  ldap/ldap-proxy.42.fr@42.FR
+Jul  4 10:18:13 2017  Jul 11 10:18:12 2017  HTTP/student-storage-1.42.fr@42.FR
+Jul  4 10:29:30 2017  Jul 11 10:18:12 2017  host/vgs-fn1.42.fr@42.FR

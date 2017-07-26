@@ -1,0 +1,109 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    colle00                                            :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: pbonnet <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2017/07/24 15:57:17 by pbonnet           #+#    #+#              #
+#    Updated: 2017/07/24 15:57:37 by pbonnet          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#include <unistd.h>
+
+void ft_putchar(char c)
+
+int		ligne1(int x)
+{
+	int		a;
+
+	a = 1;
+	if (x >= 1)
+	{
+		ft_putchar('o');
+	}
+	while (a <= x - 2)
+	{
+		ft_putchar('-');
+		a++;
+	}
+	if (x > 1)
+	{
+		ft_putchar('o');
+	}
+	ft_putchar('\n');
+
+	return (0);
+}
+
+
+int		lignefin(int x)
+{
+	int		b;
+
+	b = 1;
+	if (x >= 1)
+	{
+		ft_putchar('o');
+	}
+	while (b <= x - 2)
+	{
+		ft_putchar('-');
+		b++;
+	}
+	if (x > 1)
+	{
+		ft_putchar('o');
+	}
+	ft_putchar('\n');
+
+	return (0);
+}
+
+int		lignecentre(int x)
+{
+	int c;
+
+	c = 1;
+	if (x >= 1)
+	{
+		ft_putchar('|')
+	}
+	while (c <= x - 2)
+	{
+		ft_putchar(' ');
+		c++;
+	}
+	if (x > 1)
+	{
+		ft_putchar('|');
+	}
+	ft_putchar('\n');
+
+	return (0);
+}
+
+int		rush00(int x, int y)
+{
+	int d;
+
+	d = 1;
+	ligne1(x);
+	while (d <= y - 2)
+	{
+		lignecentre(x);
+		d++;
+	}
+	if (y > 1)
+	{
+		lignefin(x);
+	}
+	return (0);
+}
+
+int     main(int x, int y)
+{
+	ft_putchar('c')
+		return (0);
+}
